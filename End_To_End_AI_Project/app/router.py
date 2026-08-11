@@ -9,11 +9,12 @@ from app.llm_client import call_llm
 from app.state import AssistantState
 from app.tools import TOOL_REGISTRY
 from app.utils.logger import get_logger
+from pathlib import Path
 
 logger = get_logger(__name__)
 
 ROUTING_OPTIONS = ["calculator", "weather", "wikipedia", "converter", "direct"]
-
+PROMPT_DIR = Path(__file__).parent / "prompts"
 
 def route_query(user_query: str, state: AssistantState, conversation_context: str = "") -> dict:
     """
@@ -40,7 +41,10 @@ def route_query(user_query: str, state: AssistantState, conversation_context: st
 
 
 def _get_routing_decision(user_query: str, conversation_context: str = "") -> str:
-    with open("app/prompts/routing_prompt.txt", "r") as f:
+
+    routing_prompt_path = PROMPT_DIR / "routing_prompt.txt"
+    
+    with open(routing_prompt_path, "r", encoding="utf-8") as f:
         prompt_template = f.read()
 
     prompt = prompt_template.format(
