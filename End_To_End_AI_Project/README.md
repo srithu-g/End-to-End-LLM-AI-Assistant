@@ -4,9 +4,6 @@
 
 <p align="center">
 
-<a href="YOUR_STREAMLIT_URL">🚀 Live Demo</a>
-&nbsp;&nbsp;•&nbsp;&nbsp;
-<a href="YOUR_GITHUB_REPO_URL">💻 GitHub Repository</a>
 
 </p>
 
@@ -509,9 +506,10 @@ Your first question was about calculating 25% of 480.
 # 📁 Project Structure
 
 ```text
-End-to-End-LLM-AI-Assistant/
+End-to-End-LLM-AI-Project/
 │
 ├── app/
+|   |── 
 │   ├── ui/
 │   ├── utils/
 │   │   ├── config.py
