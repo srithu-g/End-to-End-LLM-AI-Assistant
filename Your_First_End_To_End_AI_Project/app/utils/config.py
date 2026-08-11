@@ -76,12 +76,12 @@ def _validate_required_keys() -> None:
     This gives a helpful message instead of a cryptic KeyError later.
     """
     required = {
-        "OPENAI_API_KEY": "Required to call the LLM. Get yours at https://platform.openai.com",
+    "GROQ_API_KEY": "Required to call the LLM.",
     }
 
     optional = {
-        "LLM_MODEL": "Defaults to gpt-4o-mini if not set.",
-        "LOG_LEVEL": "Defaults to INFO if not set.",
+    "LLM_MODEL": "Defaults to llama-3.3-70b-versatile if not set.",
+    "LOG_LEVEL": "Defaults to INFO if not set.",
     }
 
     for key, hint in required.items():

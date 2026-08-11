@@ -25,8 +25,8 @@ def main():
     conversation = ConversationManager(max_context_turns=5)
 
     print("\n" + "=" * 60)
-    print("  🤖  AI Assistant — Episode 4")
-    print("  AI Engineering Roadmap 2026")
+    print("  🤖  AI Assistant")
+    # print("  AI Engineering Roadmap 2026")
     print("=" * 60)
     print("  Tools: 🧮 Calculator · 🌤️ Weather · 📖 Wikipedia · 📏 Converter")
     print("  Try: 'What is 25% of 480?' or 'Convert 100F to C'")

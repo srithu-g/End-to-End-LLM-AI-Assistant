@@ -27,6 +27,7 @@ Key concepts demonstrated:
 
 import time
 import os
+from xml.parsers.expat import model
 from openai import OpenAI
 from app.utils.logger import get_logger
 
@@ -65,8 +66,17 @@ def call_llm(
     Raises:
         RuntimeError: If all retries fail
     """
-    client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
-    selected_model = model or os.environ.get("LLM_MODEL", "gpt-4o-mini")
+    # client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+    # selected_model = model or os.environ.get("LLM_MODEL", "gpt-4o-mini")
+    client = OpenAI(
+    api_key=os.environ.get("GROQ_API_KEY"),
+    base_url="https://api.groq.com/openai/v1"
+    )
+
+    selected_model = model or os.environ.get(
+    "LLM_MODEL",
+    "llama-3.3-70b-versatile"
+ )
 
     messages = [
         {"role": "system", "content": system_prompt},
