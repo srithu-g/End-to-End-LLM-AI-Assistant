@@ -1,7 +1,6 @@
 """
 utils/config.py — Configuration Management
 ============================================
-AI Engineering Roadmap 2026 · Episode 3
 
 All configuration comes from environment variables.
 This is a non-negotiable production engineering practice.

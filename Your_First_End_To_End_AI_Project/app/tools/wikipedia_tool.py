@@ -1,9 +1,6 @@
 """
 tools/wikipedia_tool.py — Wikipedia Summary Tool
 ===================================================
-AI Engineering Roadmap 2026 · Episode 4
-
-NEW in Episode 4.
 
 This tool fetches a summary of any topic from the Wikipedia API.
 It gives the LLM access to factual, sourced information — reducing

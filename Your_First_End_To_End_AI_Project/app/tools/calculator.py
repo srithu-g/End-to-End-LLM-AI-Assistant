@@ -1,7 +1,7 @@
 """
 tools/calculator.py — Calculator Tool
 =======================================
-AI Engineering Roadmap 2026 · Episode 3
+
 
 This tool handles arithmetic queries that the LLM should NOT
 try to compute itself.

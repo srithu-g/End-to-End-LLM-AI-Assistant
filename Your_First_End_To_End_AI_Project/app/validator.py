@@ -1,7 +1,7 @@
 """
 validator.py — Validation Layer
 ================================
-AI Engineering Roadmap 2026 · Episode 3
+
 
 This is the layer most tutorials completely skip.
 

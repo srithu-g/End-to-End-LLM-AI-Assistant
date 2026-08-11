@@ -1,12 +1,7 @@
 """
-router.py — Routing Decision Layer (Episode 4)
+router.py — Routing Decision Layer
 ================================================
-AI Engineering Roadmap 2026 · Episode 4
 
-Updated from Episode 3:
-  - Now accepts conversation_context parameter
-  - Routes to 4 tools (added wikipedia, converter)
-  - Conversation history injected into routing prompt
 """
 
 import json

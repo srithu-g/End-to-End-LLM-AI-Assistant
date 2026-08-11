@@ -1,7 +1,6 @@
 """
 llm_client.py — LLM API Wrapper
 =================================
-AI Engineering Roadmap 2026 · Episode 3
 
 Why does this file exist?
 

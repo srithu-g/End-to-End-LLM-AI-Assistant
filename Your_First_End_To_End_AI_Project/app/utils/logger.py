@@ -1,7 +1,7 @@
 """
 utils/logger.py — Structured Logger
 =====================================
-AI Engineering Roadmap 2026 · Episode 3
+
 
 Why structured logging matters:
 

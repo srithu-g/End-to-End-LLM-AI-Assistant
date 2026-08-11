@@ -1,14 +1,11 @@
 """
 conversation.py — Conversation History Manager
 =================================================
-AI Engineering Roadmap 2026 · Episode 4
 
-What's new in Episode 4?
-
-In Episode 3, every query was independent. The system had no memory
+Every query is independent. The system had no memory
 of what happened before. Ask "What did I just ask?" and it has no idea.
 
-In Episode 4, we add conversation memory — the system tracks every
+We add conversation memory — the system tracks every
 turn of the conversation within a session.
 
 Why this matters for production AI:

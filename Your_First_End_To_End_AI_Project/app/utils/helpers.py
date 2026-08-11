@@ -1,7 +1,7 @@
 """
 utils/helpers.py — Shared Helper Functions
 ============================================
-AI Engineering Roadmap 2026 · Episode 3
+
 
 Utility functions used across the codebase.
 Keeping these in one place avoids duplication and makes testing easy.

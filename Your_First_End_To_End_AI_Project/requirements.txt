@@ -1,4 +1,4 @@
-# Episode 4 — Your First End-to-End AI Project
+
 openai>=1.30.0
 requests>=2.31.0
 pydantic>=2.0.0

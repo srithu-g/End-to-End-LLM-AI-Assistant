@@ -1,5 +1,5 @@
 """
-tests/test_tools.py — Tool Unit Tests (Episode 4)
+tests/test_tools.py — Tool Unit Tests
 ===================================================
 Now covering 4 tools: calculator, weather, wikipedia, converter
 

@@ -1,8 +1,6 @@
 """
 schemas/conversation_schema.py — Conversation Turn Schema
 ==========================================================
-AI Engineering Roadmap 2026 · Episode 4
-
 Pydantic schema for conversation turns.
 Used for validation when exporting or storing conversations.
 """

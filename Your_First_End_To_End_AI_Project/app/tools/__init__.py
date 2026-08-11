@@ -1,5 +1,5 @@
 """
-tools/__init__.py — Tool Registry (Episode 4)
+tools/__init__.py — Tool Registry
 ===============================================
 4 tools: calculator, weather, wikipedia, converter
 """

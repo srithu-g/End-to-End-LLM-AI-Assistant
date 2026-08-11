@@ -1,7 +1,7 @@
 """
 ui/streamlit_app.py — Streamlit Web Interface
 ===============================================
-AI Engineering Roadmap 2026 · Episode 4
+
 
 This is the layer that turns your backend pipeline into a product.
 

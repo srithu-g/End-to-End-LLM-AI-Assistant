@@ -1,4 +1,4 @@
-"""tests/test_router.py — Router Tests (Episode 4)"""
+"""tests/test_router.py — Router Tests"""
 import pytest
 from unittest.mock import patch
 from app.state import AssistantState

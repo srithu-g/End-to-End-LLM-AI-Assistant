@@ -1,7 +1,6 @@
 """
 schemas/response_schema.py — Response Schema
 =============================================
-AI Engineering Roadmap 2026 · Episode 3
 
 Pydantic schemas define the contract for your data.
 

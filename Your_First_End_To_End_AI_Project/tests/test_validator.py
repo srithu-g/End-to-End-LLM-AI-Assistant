@@ -1,7 +1,7 @@
 """
 tests/test_validator.py — Validation Layer Tests
 ==================================================
-AI Engineering Roadmap 2026 · Episode 3
+
 
 Tests for the validator module.
 

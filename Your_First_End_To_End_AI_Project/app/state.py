@@ -1,7 +1,6 @@
 """
 state.py — System State
 ========================
-AI Engineering Roadmap 2026 · Episode 3
 
 What is state and why does it matter?
 

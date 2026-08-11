@@ -1,12 +1,7 @@
 """
-main.py — CLI Entry Point (Episode 4)
+main.py — CLI Entry Point 
 =======================================
-AI Engineering Roadmap 2026 · Episode 4
 
-Updated from Episode 3:
-  - Includes conversation history
-  - Shows tool usage in responses
-  - Supports multi-turn context
 """
 
 import sys
@@ -26,7 +21,6 @@ def main():
 
     print("\n" + "=" * 60)
     print("  🤖  AI Assistant")
-    # print("  AI Engineering Roadmap 2026")
     print("=" * 60)
     print("  Tools: 🧮 Calculator · 🌤️ Weather · 📖 Wikipedia · 📏 Converter")
     print("  Try: 'What is 25% of 480?' or 'Convert 100F to C'")

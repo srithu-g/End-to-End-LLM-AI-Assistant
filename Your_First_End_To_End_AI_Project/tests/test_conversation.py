@@ -1,10 +1,10 @@
 """
 tests/test_conversation.py — Conversation Manager Tests
 ========================================================
-AI Engineering Roadmap 2026 · Episode 4
+A
 
 Tests for the conversation history manager — the new stateful
-layer that Episode 4 introduces.
+layer.
 
 Run with:
   pytest tests/test_conversation.py -v

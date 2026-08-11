@@ -1,9 +1,6 @@
 """
 tools/unit_converter.py — Unit Conversion Tool
 ================================================
-AI Engineering Roadmap 2026 · Episode 4
-
-NEW in Episode 4.
 
 Handles temperature, length, weight, and volume conversions.
 No external API needed — pure Python computation.

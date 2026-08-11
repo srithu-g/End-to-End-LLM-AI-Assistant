@@ -1,7 +1,6 @@
 """
 schemas/state_schema.py — State Schema
 ========================================
-AI Engineering Roadmap 2026 · Episode 3
 
 Pydantic version of the system state.
 Used for serialisation, logging, and future database persistence.

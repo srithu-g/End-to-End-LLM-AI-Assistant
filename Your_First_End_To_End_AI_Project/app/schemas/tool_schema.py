@@ -1,7 +1,6 @@
 """
 schemas/tool_schema.py — Tool Input/Output Schemas
 ====================================================
-AI Engineering Roadmap 2026 · Episode 3
 
 Define the data contracts for tool inputs and outputs.
 Every tool call passes through these schemas.

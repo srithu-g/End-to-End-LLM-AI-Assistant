@@ -1,4 +1,4 @@
-"""tests/test_end_to_end.py — Integration Tests (Episode 4)"""
+"""tests/test_end_to_end.py — Integration Tests"""
 import pytest
 from unittest.mock import patch
 from app.main import main
