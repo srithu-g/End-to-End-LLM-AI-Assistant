@@ -636,9 +636,9 @@ The application is deployed using **Streamlit Community Cloud**.
 
 ### 🚀 Live Application
 
-**[YOUR_STREAMLIT_URL](YOUR_STREAMLIT_URL)**
+**[Try the Live AI Assistant](https://srithu-end-to-end-llm-ai-assistant.streamlit.app/)**
 
-The LLM API key is configured through **Streamlit Secrets** and is not stored in the repository.
+The LLM API key is securely configured through **Streamlit Secrets** and is not stored in the repository.
 
 ---
 
