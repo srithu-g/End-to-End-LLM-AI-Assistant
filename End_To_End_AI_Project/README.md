@@ -502,38 +502,64 @@ Your first question was about calculating 25% of 480.
 ```
 
 ---
-
-# 📁 Project Structure
+## 📁 Project Structure
 
 ```text
-End-to-End-LLM-AI-Project/
+End_To_End_AI_Project/
 │
 ├── app/
-|   |── 
-│   ├── ui/
-│   ├── utils/
-│   │   ├── config.py
-│   │   ├── helpers.py
-│   │   └── logger.py
 │   │
-│   ├── conversation.py
-│   ├── llm_client.py
-│   ├── main.py
-│   ├── router.py
-│   ├── state.py
-│   └── validator.py
-│
-├── docs/
-│
-├── examples/
+│   ├── prompts/
+│   │   ├── response_prompt.txt        # Prompt template for generating final responses
+│   │   └── routing_prompt.txt         # Prompt used to determine the appropriate request route
+│   │
+│   ├── schemas/
+│   │   ├── __init__.py
+│   │   ├── conversation_schema.py     # Schema for conversation and message data
+│   │   ├── response_schema.py         # Schema for validating LLM responses
+│   │   ├── state_schema.py            # Schema defining application state
+│   │   └── tool_schema.py             # Schema for tool calls and tool-related data
+│   │
+│   ├── tools/
+│   │   ├── __init__.py
+│   │   ├── calculator.py              # Performs mathematical calculations
+│   │   ├── unit_converter.py           # Converts values between different units
+│   │   ├── weather_api.py              # Retrieves weather information
+│   │   └── wikipedia_tool.py           # Retrieves information from Wikipedia
+│   │
+│   ├── ui/
+│   │   ├── __init__.py
+│   │   └── streamlit_app.py            # Streamlit interface for interacting with the AI assistant
+│   │
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── config.py                   # Application configuration and environment settings
+│   │   ├── helpers.py                  # Reusable helper functions
+│   │   └── logger.py                   # Application logging configuration
+│   │
+│   ├── __init__.py
+│   ├── conversation.py                 # Manages conversation history and context
+│   ├── llm_client.py                   # Handles communication with the LLM
+│   ├── main.py                         # Core application orchestration
+│   ├── router.py                       # Routes user requests using LLM-based decision making
+│   ├── state.py                        # Manages runtime application state
+│   └── validator.py                    # Validates inputs, outputs, and structured responses
 │
 ├── tests/
+│   ├── __init__.py
+│   ├── conftest.py                     # Shared pytest fixtures and test configuration
+│   ├── test_conversation.py            # Tests conversation and context handling
+│   ├── test_end_to_end.py              # End-to-end application tests
+│   ├── test_router.py                  # Tests request routing logic
+│   ├── test_tools.py                   # Tests tool execution and integrations
+│   └── test_validator.py               # Tests validation logic
 │
-├── .env.example
-├── requirements.txt
-├── run.py
-├── run_ui.py
-└── README.md
+├── LICENSE                             # Project license
+├── README.md                           # Project documentation
+├── requirements.txt                    # Python dependencies
+├── run.py                              # Main application entry point
+├── run_ui.py                           # Streamlit application entry point
+└── .gitignore                          # Excludes secrets, virtual environments, and generated files
 ```
 
 ---
